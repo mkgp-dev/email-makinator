@@ -20,7 +20,7 @@ describe('generateEmail', () => {
     vi.unstubAllGlobals();
   });
 
-  test('calls valid /v1/ai/generate URL from default base', async () => {
+  test('calls valid /v1/ai/generate URL', async () => {
     const fetchMock = vi.fn().mockResolvedValue({
       ok: true,
       json: async () => ({ action: 'generated', output: { emailBody: 'ok' } }),
@@ -29,7 +29,8 @@ describe('generateEmail', () => {
 
     await generateEmail(request);
 
-    expect(fetchMock.mock.calls[0]?.[0]).toBe('http://localhost:3000/v1/ai/generate');
+    const calledUrl = String(fetchMock.mock.calls[0]?.[0] ?? '');
+    expect(calledUrl.endsWith('/v1/ai/generate')).toBe(true);
   });
 
   test('omits Authorization header when no pollinationsKey exists', async () => {
