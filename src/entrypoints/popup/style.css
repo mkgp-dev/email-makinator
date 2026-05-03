@@ -1,0 +1,7 @@
+@import '@fontsource-variable/inter/wght.css';
+
+body {
+  margin: 0;
+  font-family: 'Inter Variable', sans-serif;
+  background: #0f172a;
+}
