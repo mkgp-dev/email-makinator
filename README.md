@@ -15,7 +15,26 @@
 </div>
 
 > [!NOTE]
-> I cannot afford the Chrome Web Store one-time publisher fee right now, so this project is currently submitted to Firefox Add-ons for review first. To use the extension immediately on Chrome or Firefox, follow [INSTALLATION.md](./INSTALLATION.md) and install from the builds in GitHub Releases.
+> I cannot afford the Chrome Web Store one-time publisher fee right now, ~~so this project is currently submitted to Firefox Add-ons for review first~~. To use the extension immediately on Chrome or Firefox, follow [INSTALLATION.md](./INSTALLATION.md) and install from the builds in GitHub Releases.
+
+## Downloads
+
+<table cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="center">
+      <a align="center" href="#" disabled>
+        <img src="https://user-images.githubusercontent.com/22908993/166417152-f870bfbd-1770-4c28-b69d-a7303aebc9a6.png" alt="Chrome web store" />
+        <p align="center">Chrome Web Store</p>
+      </a>
+    </td>
+    <td valign="center">
+      <a href="https://addons.mozilla.org/en-US/firefox/addon/email-makinator/">
+        <img src="https://user-images.githubusercontent.com/22908993/166417727-3481fef4-00e5-4cf0-bb03-27fb880d993c.png" alt="Firefox add-ons" />
+        <p align="center">Firefox Add-ons</p>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## About the Project
 
